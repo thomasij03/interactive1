@@ -1,0 +1,573 @@
+body {
+  background: linear-gradient(135deg, #2d2d5e, #1e3a6e, #1a5276);
+  min-height: 100vh;
+}
+
+/* #a3,
+#a7,
+#a9{
+    background-color:black;
+} */
+.main:hover .fill {
+  background-color: black;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  height: 600px;
+}
+
+.bar {
+  background-color: black;
+  height: 50px;
+  width: 20px;
+  margin: 20px;
+}
+
+#letter-t {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  width: 200px;
+  height: 130px;
+  transform: scale(1.1);
+}
+
+#t2 {
+  position: absolute;
+  width: 35px;
+  height: 105px;
+  background: #000000;
+  transform: skew(-45deg);
+  left: 45px;
+  top: 15px;
+}
+
+#t1 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 40px;
+  top: 0px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-t:hover #t1 {
+  background-color: red;
+}
+
+#letter-t:hover #t2 {
+  background-color: royalblue;
+}
+
+#letter-p {
+  position: absolute;
+  left: 250px;
+  top: 20px;
+}
+
+#p1 {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 110px;
+  top: 10px;
+  background: #000000;
+  transform: skew(45deg) rotate(90deg);
+}
+
+#p2 {
+  position: absolute;
+  width: 40px;
+  height: 115px;
+  background: #000000;
+  transform: skew(-45deg);
+  left: 45px;
+  top: 10px;
+}
+
+#p3 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 70px;
+  top: 65px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-p:hover #p1 {
+  background-color: red;
+}
+#letter-p:hover #p2 {
+  background-color: royalblue;
+}
+#letter-p:hover #p3 {
+  background-color: greenyellow;
+}
+
+#letter-a {
+  position: absolute;
+  left: 550px;
+  top: 30px;
+}
+
+#a1 {
+  position: absolute;
+  width: 22px;
+  height: 140px;
+  left: 100px;
+  top: -11px;
+  background: #000000;
+  transform: skew(45deg) rotate(45deg);
+}
+
+#a2 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: 10px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#a3 {
+  position: absolute;
+  width: 70px;
+  height: 25px;
+  left: 35px;
+  top: 50px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-a:hover #a1 {
+  background-color: red;
+}
+#letter-a:hover #a2 {
+  background-color: royalblue;
+}
+#letter-a:hover #a3 {
+  background-color: greenyellow;
+}
+
+#letter-n {
+  position: absolute;
+  left: 850px;
+  top: 30px;
+}
+
+#n1 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: -25px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#n2 {
+  position: absolute;
+  width: 20px;
+  height: 150px;
+  left: 50px;
+  top: -15px;
+  background: #000000;
+  transform: skew(45deg) rotate(45deg);
+}
+
+#n3 {
+  position: absolute;
+  width: 40px;
+  height: 110px;
+  left: 100px;
+  top: 10px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#letter-n:hover #n1 {
+  background-color: red;
+}
+#letter-n:hover #n2 {
+  background-color: royalblue;
+}
+#letter-n:hover #n3 {
+  background-color: greenyellow;
+}
+
+#letter-d {
+  position: absolute;
+  left: 1100px;
+  top: 30px;
+}
+
+#d1 {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  left: 110px;
+  top: 10px;
+  background: #000000;
+  transform: skew(45deg) rotate(90deg);
+}
+
+#d2 {
+  position: absolute;
+  width: 40px;
+  height: 90px;
+  background: #000000;
+  transform: skew(-45deg);
+  left: 55px;
+  top: 10px;
+}
+
+#d3 {
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  left: -10px;
+  top: 100px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#d4 {
+  position: absolute;
+  width: 40px;
+  height: 50px;
+  background: #000000;
+  transform: skew(-45deg);
+  left: 155px;
+  top: 70px;
+}
+
+#letter-d:hover #d1 {
+  background-color: red;
+}
+#letter-d:hover #d2 {
+  background-color: royalblue;
+}
+#letter-d:hover #d3 {
+  background-color: greenyellow;
+}
+#letter-d:hover #d4 {
+  background-color: hotpink;
+}
+
+#letter-o {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+#o1 {
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  left: -25px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#o2 {
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  left: 80px;
+  top: 12px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#o3 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 40px;
+  top: -10px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#o4 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: -60px;
+  top: 98px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-o:hover #o1 {
+  background-color: red;
+}
+#letter-o:hover #o2 {
+  background-color: royalblue;
+}
+#letter-o:hover #o3 {
+  background-color: greenyellow;
+}
+#letter-o:hover #o4 {
+  background-color: hotpink;
+}
+
+#letter-q {
+  position: absolute;
+  left: 350px;
+  top: 200px;
+}
+
+#q1 {
+  position: absolute;
+  width: 40px;
+  height: 100px;
+  left: -25px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#q2 {
+  position: absolute;
+  width: 40px;
+  height: 130px;
+  left: 60px;
+  top: 12px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#q3 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: 40px;
+  top: -10px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#q4 {
+  position: absolute;
+  width: 120px;
+  height: 24px;
+  left: -60px;
+  top: 98px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-q:hover #q1 {
+  background-color: red;
+}
+#letter-q:hover #q2 {
+  background-color: royalblue;
+}
+#letter-q:hover #q3 {
+  background-color: greenyellow;
+}
+#letter-q:hover #q4 {
+  background-color: hotpink;
+}
+
+#letter-m {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+}
+
+#m1 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: -25px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#m2 {
+  position: absolute;
+  width: 20px;
+  height: 150px;
+  left: 50px;
+  top: -15px;
+  background: #000000;
+  transform: skew(45deg) rotate(45deg);
+}
+
+#m3 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: 132px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#m4 {
+  position: absolute;
+  width: 20px;
+  height: 160px;
+  left: 200px;
+  top: -15px;
+  background: #000000;
+  transform: skew(45deg) rotate(45deg);
+}
+
+#letter-m:hover #m1 {
+  background-color: red;
+}
+#letter-m:hover #m2 {
+  background-color: royalblue;
+}
+#letter-m:hover #m3 {
+  background-color: greenyellow;
+}
+#letter-m:hover #m4 {
+  background-color: hotpink;
+}
+
+#letter-s {
+  position: absolute;
+  left: 870px;
+  top: 200px;
+}
+
+#s1 {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  left: 80px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#s2 {
+  position: absolute;
+  width: 60px;
+  height: 35px;
+  left: 130px;
+  top: 1px;
+  background: #000000;
+  transform: skew(45deg) rotate(90deg);
+}
+
+#s3 {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 60px;
+  top: 75px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#s4 {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  left: 120px;
+  top: 75px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#s5 {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  left: 30px;
+  top: 100px;
+  background: #000000;
+  transform: skew(45deg) rotate(90deg);
+}
+
+#letter-s:hover #s1 {
+  background-color: red;
+}
+#letter-s:hover #s2 {
+  background-color: royalblue;
+}
+#letter-s:hover #s3 {
+  background-color: greenyellow;
+}
+#letter-s:hover #s4 {
+  background-color: hotpink;
+}
+#letter-s:hover #s5 {
+  background-color: orange;
+}
+
+#letter-e {
+  position: absolute;
+  left: 1200px;
+  top: 200px;
+  overflow: visible;
+}
+
+#e1 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  left: -25px;
+  top: 0px;
+  background: #000000;
+  transform: skew(-45deg);
+}
+
+#e2 {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  left: -0px;
+  top: 50px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#e3 {
+  position: absolute;
+  width: 120px;
+  height: 25px;
+  left: -45px;
+  top: 95px;
+  background: #000000;
+  transform: skew(45deg);
+}
+#e4 {
+  position: absolute;
+  width: 80px;
+  height: 25px;
+  left: 30px;
+  top: 0px;
+  background: #000000;
+  transform: skew(45deg);
+}
+
+#letter-e:hover #e1 {
+  background-color: red;
+}
+#letter-e:hover #e2 {
+  background-color: royalblue;
+}
+#letter-e:hover #e3 {
+  background-color: greenyellow;
+}
+#letter-e:hover #e4 {
+  background-color: hotpink;
+}
+
+[id^="letter-"] div {
+  transition: background-color 2.5s ease;
+}
